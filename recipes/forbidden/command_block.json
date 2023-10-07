@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ninja:kage"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BSB",
+      "BRB",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bedrock"
+      },
+      "S": {
+        "tag": "minecraft:sign"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:bedrock"
+      }
+    ],
+    "result": {
+      "item": "minecraft:command_block"
+    }
+  }
+}
+
+//--------------------------------------------------------------------------------
+//    "result": [
+//      { "item": "FIRST_ITEM" },
+//      { "item": "SECOND_ITEM" }
+//    ]
+// That's it, Multi Shadow Clone Jutsu.
+//--------------------------------------------------------------------------------

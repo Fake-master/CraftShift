@@ -1,0 +1,32 @@
+// Hey, don't cry..
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:crying_obsidian"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " T ",
+      "TGT",
+      " T "
+    ],
+    "key": {
+      "T": {
+        "item": "minecraft:ghast_tear"
+      },
+      "G": {
+        "item": "minecraft:glowingobsidian"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:glowingobsidian"
+      }
+    ],
+    "result": {
+      "item": "minecraft:crying_obsidian"
+    }
+  }
+}

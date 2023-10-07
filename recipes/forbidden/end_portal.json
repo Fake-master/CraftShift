@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ninjaart:end_portal"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "BEB",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bedrock"
+      },
+      "E": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:bedrock"
+      }
+    ],
+    "result": {
+      "item": "minecraft:end_portal"
+    }
+  }
+}

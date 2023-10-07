@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:soul_fire"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "F",
+      "S"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:fire"
+      },
+      "S": {
+        // "item": "minecraft:soul_soil"
+        "tag": "minecraft:soul_fire_base_blocks"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:fire"
+      }
+    ],
+    "result": {
+      "item": "minecraft:soul_fire"
+    }
+  }
+}
