@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+
+  "metadata": {
+    "authors": ["not.anyone"],
+    "url": "https://discord.gg/w2Z32yrccW"
+  },
+
+  "header": {
+      "name": "CraftShift",
+      "description": "Add a lot of Recipes",
+      "uuid": "2cdefa3a-7598-4402-b7a7-025db59888e4",
+      "version": [ 2, 0, 0 ],
+      "min_engine_version": [ 1, 20, 10 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "bc0498c1-a3b7-456e-b264-ec638229694f",
+      "version": [ 2, 0, 0 ]
+    }
+  ]
+}
