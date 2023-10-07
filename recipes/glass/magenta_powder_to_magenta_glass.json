@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:magenta_powder_to_magenta_glass"
+    },
+
+    "unlock": [
+      {
+        "item": "minecraft:concrete_powder",
+        "data": 2
+      }
+    ],
+
+    "tags": [ "furnace" ],
+    "input": "minecraft:concrete_powder:2",
+    "output": "minecraft:stained_glass:2"
+    // "group": "powder_glass"
+  }
+}

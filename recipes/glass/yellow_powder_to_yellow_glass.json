@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:yellow_powder_to_yellow_glass"
+    },
+
+    "unlock": [
+      {
+        "item": "minecraft:concrete_powder",
+        "data": 4
+      }
+    ],
+
+    "tags": [ "furnace" ],
+    "input": "minecraft:concrete_powder:4",
+    "output": "minecraft:stained_glass:4"
+    // "group": "powder_glass"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:white_powder_to_white_glass"
+    },
+
+    "unlock": [
+      {
+        "item": "minecraft:concrete_powder",
+        "data": 0
+      }
+    ],
+
+    "tags": [ "furnace" ],
+    "input": "minecraft:concrete_powder:0",
+    "output": "minecraft:stained_glass:0"
+    // "group": "powder_glass"
+  }
+}

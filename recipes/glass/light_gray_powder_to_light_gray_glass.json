@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:light_gray_powder_to_light_gray_glass"
+    },
+
+    "unlock": [
+      {
+        "item": "minecraft:concrete_powder",
+        "data": 8
+      }
+    ],
+
+    "tags": [ "furnace" ],
+    "input": "minecraft:concrete_powder:8",
+    "output": "minecraft:stained_glass:8"
+    // "group": "powder_glass"
+  }
+}

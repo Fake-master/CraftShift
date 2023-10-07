@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:red_powder_to_red_glass"
+    },
+
+    "unlock": [
+      {
+        "item": "minecraft:concrete_powder",
+        "data": 14
+      }
+    ],
+
+    "tags": [ "furnace" ],
+    "input": "minecraft:concrete_powder:14",
+    "output": "minecraft:stained_glass:14"
+    // "group": "powder_glass"
+  }
+}
