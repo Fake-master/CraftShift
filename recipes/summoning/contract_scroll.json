@@ -1,0 +1,35 @@
+//--------------------------------------------------------------------------------
+// Without a summoning contact you can't
+// summon them.
+//--------------------------------------------------------------------------------
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:summoning_contract"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "HHH",
+      "HTH",
+      "HHH"
+    ],
+    "key": {
+      "H": {
+        "item": "minecraft:iron_bars"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+  "unlock": [
+      {
+        "item": "minecraft:iron_bars"
+      }
+    ],
+    "result": {
+      "item": "minecraft:mob_spawner"
+    }
+  }
+}
