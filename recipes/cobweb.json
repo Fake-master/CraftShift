@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:cobweb"
+    },
+
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "sss",
+      "sss",
+      "sss"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:string"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "result": { "item": "minecraft:web" }
+  }
+}

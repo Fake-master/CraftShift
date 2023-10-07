@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:furnace_deadbush_cherry"
+    },
+
+    "unlock": [
+      {
+        "item": "minecraft:cherry_sapling"
+      }
+    ],
+
+    "tags": [ "furnace" ],
+    "input": "minecraft:cherry_sapling",
+    "output": "minecraft:deadbush"
+  }
+}
